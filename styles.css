@@ -14,7 +14,6 @@
     margin-left: 22%;
     padding: 0 auto;
 }
-
 .summary-of-news{
     width: 100%;
     height: 350px;
@@ -26,4 +25,33 @@
 div > img{
     scroll-snap-align: start;
     min-width: 50%;
+}
+.ads{
+    display: block;
+    width: 407px;
+    height: 322px;
+}
+.fresh-news{
+    position: relative;
+}
+.fresh-news{
+    position: absolute;
+    top : 460px;
+    right:10px;
+    left: 500px;
+    display: block;
+}
+.image-fresh{
+    width: 50px;
+    height: 250px;
+}
+.image-ads{
+    width:100px;
+    height: 250px;
+}
+.button-fresh{
+    display: inline-block;
+    top: 750px;
+    right:250px;
+    left: 10px;
 }
